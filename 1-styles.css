@@ -1,0 +1,18 @@
+a {
+    text-decoration: none;
+    color: #8a153a;
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    text-decoration: none;
+    background-color: #8a153a;
+    height: 3px;
+    transform: translate(2.2ex);
+    transform-origin: left;
+}
+
+a:hover::before {
+    width: 9ch;
+}
